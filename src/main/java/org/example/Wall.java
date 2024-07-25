@@ -4,6 +4,8 @@ public class Wall {
     double width;
     double height;
 
+    //const
+
     //SETTER'da kural eklersem instance oluştururken de aynı kuralı eklemeliyim!!
     public Wall(double width,double height){
         this.width = width < 0 ? 0 : width;
